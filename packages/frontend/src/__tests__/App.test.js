@@ -50,7 +50,7 @@ describe('App Component', () => {
     await act(async () => {
       render(<App />);
     });
-    expect(screen.getByText("Rachel's cool app")).toBeInTheDocument();
+    expect(screen.getByText("Hello World")).toBeInTheDocument();
     expect(screen.getByText('Connected to in-memory database')).toBeInTheDocument();
   });
 
